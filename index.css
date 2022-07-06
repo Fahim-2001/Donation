@@ -5,6 +5,9 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 45px;
+}
 .first-division {
   text-align: center;
   color: rgb(255, 255, 255);
@@ -19,9 +22,9 @@ h1 {
 }
 a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: 500;
-  background-color: skyblue;
+  background-color: rgb(60, 195, 248);
   padding: 10px 25px;
   border-radius: 5px;
   font-size: 20px;
@@ -31,9 +34,7 @@ a {
   padding-top: 70px;
   padding-bottom: 70px;
 }
-h2 {
-  font-size: 45px;
-}
+
 .donate-today p {
   font-weight: 400;
   font-size: 20px;
@@ -68,6 +69,9 @@ h2 {
 .donate-plan {
   text-align: center;
 }
+.donate-plan h2 {
+  margin-bottom: 0px;
+}
 .donate-plan p {
   font-weight: 400;
   font-size: 20px;
@@ -90,4 +94,77 @@ h2 {
 }
 #medicine {
   background-color: rgba(255, 68, 0, 0.5);
+}
+.blogpost1 {
+  display: flex;
+  padding: 50px 80px;
+}
+.blog1 {
+  width: 50%;
+}
+#Need-us {
+  margin-right: 50px;
+}
+.blog1 p {
+  margin-bottom: 50px;
+}
+.blog1 img {
+  width: 100%;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+#Want-Peace {
+  margin-left: 50px;
+}
+.get-my-update {
+  margin-bottom: 100px;
+}
+.heading,
+.email {
+  text-align: center;
+}
+.heading h1 {
+  margin-bottom: 0px;
+}
+.email {
+  background-color: rgb(253, 235, 212);
+  padding: 90px 0px;
+  margin: 20px 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#Email {
+  color: rgba(100, 98, 98, 0.822);
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  background-color: rgba(160, 160, 160, 0.5);
+  border: 0px solid;
+  border-radius: 5px 0px 0px 5px;
+  padding: 15px 10px;
+  width: 40%;
+}
+#Subscribe {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  padding: 15px 25px;
+  border: 0px solid;
+  color: rgb(255, 255, 255);
+  background-color: rgb(60, 195, 248);
+  border-radius: 0px 5px 5px 0px;
+}
+footer {
+  text-align: center;
+  background-color: rgb(59, 59, 59);
+  padding: 50px 0px;
+}
+footer h3 {
+  color: skyblue;
+  font-size: 30px;
+  margin-bottom: 0px;
+  font-family: "Fredoka One", cursive;
+}
+footer p {
+  font-weight: 400;
+  color: white;
 }
