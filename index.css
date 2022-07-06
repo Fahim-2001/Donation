@@ -126,6 +126,11 @@ a {
 .heading h1 {
   margin-bottom: 0px;
 }
+.heading p {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(95, 95, 95, 0.925);
+}
 .email {
   background-color: rgb(253, 235, 212);
   padding: 90px 0px;
@@ -138,7 +143,7 @@ a {
   color: rgba(100, 98, 98, 0.822);
   font-family: "Kanit", sans-serif;
   font-weight: 400;
-  background-color: rgba(160, 160, 160, 0.5);
+  background-color: rgba(211, 210, 210, 0.5);
   border: 0px solid;
   border-radius: 5px 0px 0px 5px;
   padding: 15px 10px;
@@ -159,7 +164,7 @@ footer {
   padding: 50px 0px;
 }
 footer h3 {
-  color: skyblue;
+  color: rgb(60, 195, 248);
   font-size: 30px;
   margin-bottom: 0px;
   font-family: "Fredoka One", cursive;
