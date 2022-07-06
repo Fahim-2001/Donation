@@ -65,3 +65,29 @@ h2 {
   border-bottom: 1px solid rgb(151, 150, 150);
   margin-bottom: 30px;
 }
+.donate-plan {
+  text-align: center;
+}
+.donate-plan p {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(95, 95, 95, 0.925);
+}
+.ThirdPart-DonationPlan {
+  display: flex;
+  padding: 20px 70px;
+  margin-bottom: 50px;
+}
+.plans-of-donation {
+  padding: 50px 40px;
+  margin: 0px 10px;
+}
+#food {
+  background-color: rgba(222, 184, 135, 0.548);
+}
+#shelter {
+  background-color: rgba(135, 207, 235, 0.582);
+}
+#medicine {
+  background-color: rgba(255, 68, 0, 0.5);
+}
